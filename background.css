@@ -1,0 +1,42 @@
+body {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background-image: url("https://plus.unsplash.com/premium_photo-1711742611414-5c26139e09cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhbmRzY2FwZSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.card1 {
+    background-image: url("./anime1.avif");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0,0.3);
+    background-blend-mode: overlay;
+}
+.card2 {
+    background-image: url("https://images.unsplash.com/photo-1785225349960-07205c329a3a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2F0b3J1fGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0,0.3);
+    background-blend-mode: overlay;
+}
+.gradient {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(#982BFF,#5934F9,#1398AB,#E1EAFD);
+}
